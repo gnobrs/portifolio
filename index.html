@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portifólio | Bruno</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="cabecalho">
+			<nav class="cabecalho__navegacao">
+				<h1 class="cabecalho__titulo">Portifólio | Bruno</h1>
+				<ul class="cabecalho__navegacao-conteudo">
+					<li class="cabecalho__navegacao-botoes">
+						<a href="#sobre" class="links"
+							><i class="fa fa-id-card" aria-hidden="true"></i> Sobre</a
+						>
+					</li>
+					<li class="cabecalho__navegacao-botoes">
+						<a href="#projetos" class="links"
+							><i class="fa fa-file-code-o" aria-hidden="true"></i> Projetos</a
+						>
+					</li>
+					<li class="cabecalho__navegacao-botoes">
+						<a href="#contato" class="links"
+							><i class="fa fa-address-book" aria-hidden="true"></i> Contato</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="sobre" id="sobre">
+				<img
+					src="assets/IMG-20210604-WA0021.jpg"
+					alt="Foto Bruno Bossois Hohmann"
+					class="sobre__imagem"
+				/>
+				<div class="sobre-de-ladinho">
+					<h1 class="sobre__titulo">
+						Prazer, meu nome é Bruno Bossois Hohmann
+					</h1>
+					<p class="sobre__texto">
+						Tenho 20 anos, sou estudante de Sistemas de Informação, atualmente
+						trabalho na TopCard como estagiário. Desenvolvi esse site para
+						utilizá-lo como portifólio. Pretendo ser desenvolvedor Front-End
+					</p>
+				</div>
+			</section>
+			<section class="projetos" id="projetos">
+				<h1 class="projetos__titulo">
+					<i class="fa fa-file-code-o" aria-hidden="true"></i> Projetos
+				</h1>
+				<p class="projetos__descricao">
+					Todos os projetos podem ser encontrados no meu GitHub
+					<i class="fa fa-github" aria-hidden="true"></i>
+				</p>
+				<div class="projetos__cards">
+					<article class="projetos__cards-conteudo">
+						<iframe
+							width="100%"
+							height="100%"
+							src="https://www.youtube-nocookie.com/embed/nt4-2bcxLP8"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+							class="card__video"
+						></iframe>
+						<h1 class="card__titulo">Sistema de Vendas</h1>
+						<p class="card__descricao">
+							Sistema de vendas simples feito em linguagem C com uso de arquivos
+						</p>
+					</article>
+					<article class="projetos__cards-conteudo">
+						<img
+							src="assets/site-pratica-grid.png"
+							alt="Print do Site feito com Grid e Flexbox"
+							class="card__imagem"
+						/>
+						<h1 class="card__titulo">Página com Grid e Flexbox</h1>
+						<p class="card__descricao">
+							Página Web desenvolvida apartir do curso de Grid e Flexbox da
+							Alura
+						</p>
+					</article>
+				</div>
+			</section>
+			<section class="contato" id="contato">
+				<h1 class="contato__titulo">
+					<i class="fa fa-address-book" aria-hidden="true"></i> Contatos
+				</h1>
+				<div class="contato__meios-contato">
+					<p>
+						<i class="fa fa-envelope" aria-hidden="true"></i> gnobr1@gmail.com
+					</p>
+					<p>
+						<i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin
+					</p>
+				</div>
+			</section>
+			<footer>
+				<p>2021 | Bruno Bossois Hohmann</p>
+			</footer>
+		</main>
+	</body>
+</html>
